@@ -15,7 +15,7 @@ export default function Login() {
 
     try {
       const response = await axios.post(
-        "http://localhost:4000/api/login",
+        "https://e-commerce-duus.onrender.com/api/login",
         newUser
       )
 
